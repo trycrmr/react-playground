@@ -1,16 +1,14 @@
 import React from "react";
 import "./Layout.css";
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
 const Layout = () => {
   return (
     <div className="layout">
-      Layout yeet
-      {/* <PageContainer>
-      <Header>
-        <Nav />
-        <Main />
-        <Footer />
-      </Header>
-    </PageContainer> */}
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 };
