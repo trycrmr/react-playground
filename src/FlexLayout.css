@@ -1,0 +1,9 @@
+.flex-layout {
+  border: 3px solid pink;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.flex-children {
+  width: 100%;
+}
