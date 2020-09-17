@@ -2,7 +2,7 @@ import React from "react";
 import "./Layout.css";
 const Layout = () => {
   return (
-    <div>
+    <div className="layout">
       Layout yeet
       {/* <PageContainer>
       <Header>

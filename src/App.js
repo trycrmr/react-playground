@@ -1,10 +1,13 @@
 import React from "react";
+import UserTracker from "./features/UserTracker";
 import Layout from "./Layout";
 
 function App() {
   return (
     <div>
-      <Layout />
+      <UserTracker>
+        <Layout />
+      </UserTracker>
     </div>
   );
 }
