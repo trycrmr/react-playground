@@ -3,13 +3,14 @@ import "./Layout.css";
 import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
+import { Container } from "@material-ui/core";
 const Layout = () => {
   return (
-    <div className="layout">
+    <Container maxWidth="lg">
       <Header />
       <Main />
       <Footer />
-    </div>
+    </Container>
   );
 };
 
